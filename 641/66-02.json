@@ -1,0 +1,73 @@
+{
+    "aliquot": 2, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "A:2", 
+    "commit": "7a47a10c6d36aca3f3675f6014a1973f564345a4", 
+    "conditionals": [], 
+    "detectors": {
+        "AX": {
+            "deflection": 165.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 10.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 320.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 725.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_co2.py", 
+    "identifier": "64166", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-283", 
+    "irradiation_level": "A", 
+    "irradiation_position": 2, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Sanidine", 
+    "measurement": "jan_co2_whiff_400_120_large.py", 
+    "project": "Kevin", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Ogallala", 
+    "sample": "Og-12 35120", 
+    "spec_sha": "7a53a104ce01382abf01c738e0410fda37641fac", 
+    "timestamp": "2016-04-22T18:58:26.158033", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "068058d6-ddc6-4ebb-ae52-b0c774bd2ab6"
+}
